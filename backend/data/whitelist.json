@@ -1,0 +1,11 @@
+{
+  "internal_subnets": ["10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16", "fe80::/10", "fc00::/7"],
+  "endpoints": [
+    {"ip": "192.168.1.10", "port": 1883, "label": "Local MQTT broker"},
+    {"ip": "192.168.1.1", "port": 53, "label": "Gateway DNS resolver"},
+    {"ip": "198.51.100.123", "port": 123, "label": "NTP server"}
+  ],
+  "domains": [
+    {"name": "pool.ntp.org", "label": "NTP pool"}
+  ]
+}

@@ -1,0 +1,11 @@
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+sqlalchemy>=2.0.30
+pydantic>=2.7
+pydantic-settings>=2.3
+scapy>=2.5.0
+pyshark>=0.6
+pandas>=2.2
+pytest>=8.2
+httpx>=0.27
